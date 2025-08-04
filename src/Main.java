@@ -14,13 +14,13 @@ public class Main {
         String StudentName;
         float marks;
 
-        public Student(int studentRoll , String studentName , float marks){
+        Student(int studentRoll , String studentName , float marks){
             this.studentRoll = studentRoll;
             this.StudentName = studentName;
             this.marks = marks;
         }
 
-        private void printAll(){
+        void printAll(){
             System.out.println(this.StudentName);
             System.out.println(this.studentRoll);
             System.out.println(this.marks);

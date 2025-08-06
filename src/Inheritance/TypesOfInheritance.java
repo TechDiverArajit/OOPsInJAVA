@@ -49,6 +49,17 @@ public  class TypesOfInheritance {
           }
       }
 
+      //hierarchical inheritance - where one parent class has more than one derived classes
+      static class SDE extends employee{
+        String skill;
+        SDE(int id , int salary , String name, String skill){
+            super(id,name,salary);
+            this.skill = skill;
+        }
+      }
+
+
+
     public static void main(String[] args) {
 
         salesman s1 = new salesman(02,12000,"Abhinash",2);
